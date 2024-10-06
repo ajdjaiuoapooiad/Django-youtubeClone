@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="icon" href="images/youtube-icon.png">
+    <link rel="stylesheet" href="css/single.css " type="text/css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header-left">
+            <i id="menu" class="material-icons">menu</i>
+            <img  src="https://www.xda-developers.com/files/2017/08/After-12-Years-Google-Gives-YouTube-a-New-Logo-1900x700_c.png" alt="">
+        </div>
+
+        <div class="header-search">
+            <form action="">
+                <input type="text" placeholder="search">
+                <button><i class="material-icons">search</i></button>
+            </form>
+        </div>
+
+        <div class="header-icons">
+            <i class="material-icons display-this">search</i>
+            <i class="material-icons display-this">videocam</i>
+            <i class="material-icons display-this">apps</i>
+            <i class="material-icons display-this">notifications</i>
+            <i id="drop-down" class="material-icons display-this">account_circle</i>
+
+        </div>
+
+    </div>
+
+    <main class="single-pages">
+        <section class="video-items flex">
+            <div class="left">
+                <div class="left-content">
+                    <video controls>
+                        <source src="video/mov_hts-samp001.mp4" type="video/mp4" poster="images/1.jpg">
+                    </video>
+
+                    <div class="tag">
+                        <label for="" class="tags">#Deficix #Green #Engineeer #Python #Django</label>
+                        <p>Youtube Clone Using HTML, CSS and JS</p>
+                    </div>
+
+                    <div class="view-text">
+                        <div class="view-text">
+                            <span>123, 234 View</span>
+                        </div>
+
+                        <div class="flex">
+                            <div class="icon">
+                                <a href=""><i class="fa fa-thumbs-up"></i></a>
+                                <label for="">5k</label>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fa fa-thumbs-down"></i></a>
+                                <label for="">5k</label>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fa fa-share"></i></a>
+                                <label for="">Dislike</label>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fa fa-thumbs-up"></i></a>
+                                <label for="">Share</label>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fa fa-scissors"></i></a>
+                                <label for="">Clips</label>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fa fa-bookmark"></i></a>
+                                <label for="">Save</label>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fa fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details flex border-bottom">
+                        <div class="img">
+                            <img 
+                                src="images/logo.jpg" 
+                                style="width: 50px; height: 50px; object-fit: cover;" 
+                                alt=""
+                            >
+                        </div>
+                        
+                        <div class="heading">
+                            <h4>Dephisix</h4>
+                            <span id="count">2.4 K</span> <span>Subscribers</span>
+                            <h5>Youtube Clone Using HTML, CSS and JS</h5>
+                            <span> <i class="fa fa-caret-down"></i> show more</span>
+                        </div>
+
+                        <div>
+                            <button  id="sub_btn"  class="subscribe-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="comment">
+                        <div class="comment-heading flex">
+                            <h4><b>2 K Comments</b></h4>
+                            <h4><i class="fa fa-list-ul"></i> <label>Sort By</label> </h4>
+                        </div>
+                    </div>
+
+                    <div class="details comment_self flex">
+                        <div class="img">
+                            <img width="50px" src="images/logo.jpg" alt="">
+                        </div>
+
+                        <div class="heading flex">
+                            <input type="text" placeholder="Add to Comment...">
+                        </div>
+
+                        <div class="img">
+                            <img width="50px" src="images/logo.jpg" alt="">
+                        </div>
+                        <div class="heading">
+                            <h4>John <span>17 Days Ago</span></h4>
+                            <p>AIUEO KAKIKUKEKO SASISUSESO TATITUTETO NANINUNENO HAHIHUHEHO MAMIMUMMEO YAYUYO RARIRUREO WAWONN </p>
+
+                            <div class="comment-like flex">
+                                <div class="icon">
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <label for=""><small>2</small></label>
+                                </div>
+
+                                <div class="icon">
+                                    <i class="fa fa-thumbs-down"></i>
+                                    <label for=""><small>Dislike</small></label>
+                                </div>
+
+                                <div class="icon">
+                                    <label for=""><a><small>Reply</small></a></label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
