@@ -6,10 +6,12 @@
     <title>Youtube</title>
     <link rel="icon" href="images/youtube-icon.png">
     <link rel="stylesheet" href="css/single.css " type="text/css">
+    <link rel="stylesheet" href="css/style.css " type="text/css">
+    
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 
 </head>
@@ -18,7 +20,7 @@
     <div class="header">
         <div class="header-left">
             <i id="menu" class="material-icons">menu</i>
-            <img  src="https://www.xda-developers.com/files/2017/08/After-12-Years-Google-Gives-YouTube-a-New-Logo-1900x700_c.png" alt="">
+            <img src="https://www.xda-developers.com/files/2017/08/After-12-Years-Google-Gives-YouTube-a-New-Logo-1900x700_c.png" alt="">
         </div>
 
         <div class="header-search">
@@ -52,7 +54,7 @@
                         <p>Youtube Clone Using HTML, CSS and JS</p>
                     </div>
 
-                    <div class="view-text">
+                    <div class="view flex2 border-bottom">
                         <div class="view-text">
                             <span>123, 234 View</span>
                         </div>
@@ -98,20 +100,19 @@
                         <div class="img">
                             <img 
                                 src="images/logo.jpg" 
-                                style="width: 50px; height: 50px; object-fit: cover;" 
                                 alt=""
                             >
                         </div>
                         
                         <div class="heading">
-                            <h4>Dephisix</h4>
+                            <h4>Dephisix <i class="fas fa-check-circle"></i></h4>
                             <span id="count">2.4 K</span> <span>Subscribers</span>
                             <h5>Youtube Clone Using HTML, CSS and JS</h5>
                             <span> <i class="fa fa-caret-down"></i> show more</span>
                         </div>
 
                         <div>
-                            <button  id="sub_btn"  class="subscribe-btn">Subscribe</button>
+                            <button  id="sub-btn"  class="subscribe-btn">Subscribe</button>
                         </div>
                     </div>
                     <hr>
@@ -126,20 +127,29 @@
                         </div>
                     </div>
 
-                    <div class="details comment_self flex">
-                        <div class="img">
-                            <img width="50px" src="images/logo.jpg" alt="">
-                        </div>
 
+
+
+                    <div class="details comment-self flex">
+                        <div class="img">
+                            <img src="images/logo.jpg" alt="">
+                        </div>
+                        
                         <div class="heading flex">
-                            <input type="text" placeholder="Add to Comment...">
+                            <input type="text" placeholder="Add a comment..." id="comment" name="comment">
+                            <button ><i class="material-icons">send</i></button>
                         </div>
+                     
+                    </div>
 
+                    <div class="details flex">
+
+                        <!-- Comment index -->
                         <div class="img">
-                            <img width="50px" src="images/logo.jpg" alt="">
+                            <img  src="images/logo.jpg"  alt="">
                         </div>
                         <div class="heading">
-                            <h4>John <span>17 Days Ago</span></h4>
+                            <h4><b>John</b> <span>17 Days Ago</span></h4>
                             <p>AIUEO KAKIKUKEKO SASISUSESO TATITUTETO NANINUNENO HAHIHUHEHO MAMIMUMMEO YAYUYO RARIRUREO WAWONN </p>
 
                             <div class="comment-like flex">
@@ -165,10 +175,10 @@
                         <label for="" class="tags"><i class="fa fa-caret-up"></i>Hide Reply</label>
                         <div class="replay-details flex">
                             <div class="img">
-                                <img width="50px" src="images/logo.jpg"  alt="">
+                                <img  src="images/logo.jpg"  alt="">
                             </div>
                             <div class="text">
-                                <h4><label for="">Desphixs</label> <span>16 Months ago</span> </h4>
+                                <h4><label for="">Desphixs</label><i class="fas fa-check-circle"></i><span>16 Months ago</span> </h4>
                                 <p>Thank you</p>
                             </div>
                         </div>
@@ -190,7 +200,7 @@
                         <label for="" class="tags-bg">HTML</label>
                     </div>
 
-                    <div class="video_items video_sidebar flex">
+                    <div class="video-items video-sidebar flex">
                         <a href="">
                             <img src="images/1.jpg" alt="">
                         </a>
@@ -201,7 +211,7 @@
                         </div>
                     </div>
 
-                    <div class="video_items video_sidebar flex">
+                    <div class="video-items video-sidebar flex">
                         <a href="">
                             <img src="images/1.jpg" alt="">
                         </a>
@@ -212,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="video_items video_sidebar flex">
+                    <div class="video-items video-sidebar flex">
                         <a href="">
                             <img src="images/1.jpg" alt="">
                         </a>
@@ -230,6 +240,6 @@
     </main>
     
 
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
 </body>
 </html>
